@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<form action="https://www.hao123.com" method="get">
+			账号: <input type="text" name='username'/> <br />
+			密码: <input type="password" name='password'/> <br />
+			<input type="submit" value="提交"/>
+		</form>
+		<!--get是通过URL进行发送所发送内容是在地址栏显示的  不安全容易泄密 
+		而且用长度限制一般在255个字符 有缓存-->
+		<form action="https://www.hao123.com" method="post">
+			账号: <input type="text" name='username'/> <br />
+			密码: <input type="password" name='password'/> <br />
+			<input type="submit" value="提交"/>
+		</form>
+		<!--post是通过隐士加密进行发送的 安全性高 一般情况下 如果发送一些不重要的信息你可以用get来发送
+			如果是一些重要的信息你就得通过post而且是不同过form一般都是用ajax来进行数据传输的
+		-->
+	</body>
+</html>

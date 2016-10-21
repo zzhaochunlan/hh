@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--form主要是用来提交表单里的内容的 action里的地址就是你要
+		提交的地址一般都是后台给你的接口-->
+		<form action="https://www.hao123.com" method="get">
+			账号:<input type="text" value="" /> <br />
+			密码:<input type="password" value="" /><br />
+			<input type="button" value="提交" />
+			<input type="submit" value="提交" />
+			<input type="reset" value="重置" />
+			<!--reset必须配和form来用不然是没什么用处的-->
+		</form>
+		type-reset: <input type="reset" value="重置" /> 这个是没有用的
+		<br />
+		你喜欢吃什么水果：<br />
+		<input type="checkbox"  />苹果
+		<input type="checkbox"  />香蕉
+		<input type="checkbox"  />西瓜
+		<input type="checkbox"  />葡萄
+		<input type="checkbox"  />樱桃
+		<input type="checkbox"  />草莓
+		<input type="checkbox"  />西红柿
+		<br />
+		你感觉他怎么样：
+		<input type="radio" name="sss" />还行吧
+		<input type="radio" name="sss"/>就那样吧
+		<input type="radio" name="sss"/>一般般
+		<input type="radio" name="sss"/>不太行
+		<input type="radio" name="sss"/>讨厌
+		<!--如果要是做单选的话必须在每个input上面写name属性属性值必须是一样的-->
+	</body>
+</html>
